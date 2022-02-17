@@ -5,6 +5,7 @@ jobs:
   runPHPCSInspection:
     name: Run PHPCS inspection
     runs-on: ubuntu-latest
+    environment: GH_BOT_TOKEN
     steps:
     - uses: actions/checkout@v2
       with:
