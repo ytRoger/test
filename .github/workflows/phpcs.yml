@@ -5,7 +5,6 @@ jobs:
   runPHPCSInspection:
     name: Run PHPCS inspection
     runs-on: ubuntu-latest
-    environment: phpcs
     steps:
     - uses: actions/checkout@v2
       with:
