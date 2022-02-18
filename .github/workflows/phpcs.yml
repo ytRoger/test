@@ -1,5 +1,4 @@
-on: 
-  pull_request:
+on: pull_request
 
 name: Inspections
 jobs:
@@ -11,10 +10,10 @@ jobs:
       with:
         ref: ${{ github.event.pull_request.head.sha }}
     - name: Run PHPCS inspection
+      uses: rtCamp/action-phpcs-code-review@v2
       env:
         GH_BOT_TOKEN: ${{ secrets.GH_BOT_TOKEN }}
-        SKIP_FOLDERS: ".github"
+        SKIP_FOLDERS: "tests,.github"
         PHPCS_SNIFFS_EXCLUDE: "WordPress.Files.FileName"
       with:
-        args: "PSR12"
-      uses: rtCamp/action-phpcs-code-review@v2.1.0
+        args: "WordPress,WordPress-Core,WordPress-Docs"
