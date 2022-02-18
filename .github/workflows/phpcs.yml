@@ -1,6 +1,5 @@
 on: 
   pull_request:
-  push:
 
 name: Inspections
 jobs:
@@ -18,4 +17,4 @@ jobs:
         PHPCS_SNIFFS_EXCLUDE: "WordPress.Files.FileName"
       with:
         args: "PSR12"
-      uses: rtCamp/action-phpcs-code-review@v2
+      uses: rtCamp/action-phpcs-code-review@v2.1.0
