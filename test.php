@@ -4,4 +4,5 @@
     $bear = false;
     $panda = true;
     $firefox = $panda && $bear;
+    $koala = $panda AND $bear;
 ?>
