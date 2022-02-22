@@ -1,7 +1,6 @@
 <?xml version="1.0"?>
 <ruleset>
     <!-- display progress and sniff -->
-    <arg value="n"/>
     <arg value="p"/>
     <arg value="s"/>
 
