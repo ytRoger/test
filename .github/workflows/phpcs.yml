@@ -15,5 +15,3 @@ jobs:
         GH_BOT_TOKEN: ${{ secrets.GH_BOT_TOKEN }}
         SKIP_FOLDERS: ".github"
         PHP_LINT: false
-      with:
-        args: "PSR2,PSR12"
