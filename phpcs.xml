@@ -31,17 +31,10 @@
     </rule>
 
     <rule ref="Generic.PHP.DeprecatedFunctions"/>
- 
-
-    <!-- The `&&` and `||` operators SHOULD be used instead of `and` and `or`. -->
-<!-- <rule ref="Squiz.Operators.ValidLogicalOperators"/>
 
     <!-- PHP 4 style constructors MUST NOT be used. -->
     <rule ref="Generic.NamingConventions.ConstructorName"/>
 
-    <!-- The pseudo-variable `$this` MUST NOT be called inside a static method
-         or function. -->
-<!-- <rule ref="Squiz.Scope.StaticThisUsage"/>  -->
 
     <!-- The final keyword on methods MUST be omitted in final classes. -->
     <rule ref="Generic.CodeAnalysis.UnnecessaryFinalModifier"/>
