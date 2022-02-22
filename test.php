@@ -6,4 +6,5 @@
     $firefox = $panda && $bear;
     $koala = $panda AND $bear;
     $koala = $panda AND $bear;
+    $koala = $panda AND $bear
 ?>
