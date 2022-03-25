@@ -4,6 +4,7 @@
     $bear = false;
     $panda = true;
     $koala  = $bear && $panda;
+    $fwpgjw4gjw((
     $koala = $bear
     $koala = $bear
 ?>
