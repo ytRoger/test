@@ -3,7 +3,7 @@
 $i = 2;
 
 if ($i == 2){
-    echo "terw";;
+    echo "terw";
 }
 
 echo match ($i) {
